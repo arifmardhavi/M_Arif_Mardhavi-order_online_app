@@ -25,4 +25,15 @@ Restaurant Accept the order ?
                 Send Apologies and recomendation to contact the help center
         else, do
             cancel Order
+    if Yes, do
+        Restaurant Preparing Order
+        System auto Serching driver
+        Order ready?
+            no, back to restaurant preparing order
+            yes, Continue to packaging and taking Order
+        Driver found?
+            no, back to System auto Serching driver
+            yes, Continue to packaging and taking Order
+        Proses packaging and taking order
+        send order
 end
