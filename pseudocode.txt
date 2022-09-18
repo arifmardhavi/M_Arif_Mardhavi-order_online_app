@@ -14,4 +14,15 @@ Select Payment Method
     If Select Cash on Delivery, do
        Confirmation Payment Method by System
 Sending Order notification to Restaurant
+Restaurant Accept the order ?
+    If No, do
+        System auto Checking payment Method
+        if E-Wallet, do
+            System auto refund total payment
+            if success, do
+                cancel order
+            else, do
+                Send Apologies and recomendation to contact the help center
+        else, do
+            cancel Order
 end
