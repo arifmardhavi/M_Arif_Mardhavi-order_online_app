@@ -1,0 +1,39 @@
+Program Order Online App
+
+
+Choose Restaurant to Order Food or Drinks
+Select Menu
+Select Quantity of Food or Drinks
+Finish Order ?
+    Yes, Continue to select Payment Method
+    No, back to select Menu
+Select Payment Method
+    If Select E-Wallet, do
+       Transfer Total Payment
+       Confirmation Payment by System
+    If Select Cash on Delivery, do
+       Confirmation Payment Method by System
+Sending Order notification to Restaurant
+Restaurant Accept the order ?
+    If No, do
+        System auto Checking payment Method
+        if E-Wallet, do
+            System auto refund total payment
+            if success, do
+                cancel order
+            else, do
+                Send Apologies and recomendation to contact the help center
+        else, do
+            cancel Order
+    if Yes, do
+        Restaurant Preparing Order
+        System auto Serching driver
+        Order ready?
+            no, back to restaurant preparing order
+            yes, Continue to packaging and taking Order
+        Driver found?
+            no, back to System auto Serching driver
+            yes, Continue to packaging and taking Order
+        Proses packaging and taking order
+        send order
+end
