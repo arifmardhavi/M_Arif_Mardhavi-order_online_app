@@ -7,4 +7,11 @@ Select Quantity of Food or Drinks
 Finish Order ?
     Yes, Continue to select Payment Method
     No, back to select Menu
+Select Payment Method
+    If Select E-Wallet, do
+       Transfer Total Payment
+       Confirmation Payment by System
+    If Select Cash on Delivery, do
+       Confirmation Payment Method by System
+Sending Order notification to Restaurant
 end
